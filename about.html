@@ -6,56 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About - Het Prajapati</title>
     <link
+      rel="icon"
+      href="https://www.pngkey.com/png/full/768-7687559_vegas-golden-knights-logo-black-white-transparent-golden.png"
+      type="image/icon type"
+    />
+    <link
       href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/minireset.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
     <script defer type="text/javascript" src="js/main.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
   </head>
   <body>
-    <!-- Background Image -->
-    <section>
-      <img src="images/space.jpg" alt="" id="space" />
-      <h2 id="text">About</h2>
-      <a href="#p" id="button">Explore</a>
-    </section>
+    <div
+      id="wallpaper"
+      class="wallpaper"
+      data-image="images/profilePic.jpg"
+    ></div>
 
-    <header>
-      <a href="index.html" class="logo">Logo</a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </header>
-    <div class="sec">
-      <h2>Something about me!</h2>
-      <p id="p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Fermentum odio eu
-        feugiat pretium nibh ipsum. Turpis nunc eget lorem dolor sed viverra
-        ipsum nunc. Mattis enim ut tellus elementum sagittis vitae et leo. Sit
-        amet consectetur adipiscing elit duis tristique sollicitudin. Commodo
-        sed egestas egestas fringilla phasellus. Urna id volutpat lacus laoreet
-        non curabitur gravida arcu ac. Nisl nunc mi ipsum faucibus vitae aliquet
-        nec. Tellus in metus vulputate eu scelerisque felis imperdiet proin
-        fermentum. Eros donec ac odio tempor orci dapibus ultrices in iaculis.
-        Lacus laoreet non curabitur gravida. In hac habitasse platea dictumst.
-        Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Tempus
-        quam pellentesque nec nam aliquam sem et tortor consequat. Hac habitasse
-        platea dictumst quisque sagittis. Imperdiet nulla malesuada pellentesque
-        elit eget. Rutrum quisque non tellus orci ac auctor augue mauris.
-        Placerat orci nulla pellentesque dignissim enim sit. Rhoncus mattis
-        rhoncus urna neque viverra justo nec ultrices. Eget duis at tellus at
-        urna. Sed blandit libero volutpat sed cras ornare arcu. Ullamcorper sit
-        amet risus nullam eget. Ornare arcu dui vivamus arcu. Quisque id diam
-        vel quam elementum pulvinar etiam non. Cursus sit amet dictum sit. In
-        est ante in nibh. Venenatis urna cursus eget nunc scelerisque viverra
-        mauris in aliquam. At risus viverra adipiscing at. Ut ornare lectus sit
-        amet. Varius vel pharetra vel turpis nunc. Pulvinar elementum integer
-        enim neque volutpat ac tincidunt vitae.
-      </p>
+    <div class="content">
+      <header>
+        <a href="index.html" class="logo">Logo</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="images/profilePic.jpg"
+            srcset="
+              <!-- images/profilePic.jpg 1x, -->
+              <!-- images/alex@2x.jpg    2x,
+              images/alex@3x.jpg    3x -->
+            "
+            alt="Portrait of Het Prajapati"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">Hi, I'm Het Prajapati</h1>
+        <p class="job">Student</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            I am a CS Major and I am currently learning Swift, Java, and Web
+            Development.
+          </p>
+
+          <br />
+
+          <p>Open to Collaborations</p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:hprajapati@albany.edu">
+            Get in touch
+          </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://twitter.com/PrajapatiHet" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/het-prajapati" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
     </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
+
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
   </body>
 </html>
