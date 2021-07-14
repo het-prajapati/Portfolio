@@ -14,24 +14,29 @@
       href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="css/minireset.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script defer type="text/javascript" src="js/main.js"></script>
   </head>
   <body>
     <!-- Background Image -->
     <section>
-      <img src="images/space.jpg" alt="" id="space" />
+      <img id="background" src="images/space.jpg" alt="" />
+
       <h2 id="text">Portfolio</h2>
-      <a href="#p" id="button">Explore</a>
+      <div class="contact">
+        <a id="button" class="button" href="#p"> Explore </a>
+      </div>
+      <!-- <a href="#p" id="button" class="button">Explore</a> -->
     </section>
 
     <header>
       <a href="index.html" class="logo">Logo</a>
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </header>
 
