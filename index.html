@@ -17,7 +17,7 @@
     />
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -726,7 +726,108 @@
       </section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Mose Recent Work</span>
+
+        <div class="portfolio__container container swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website</h3>
+                <p class="portfolio__description">
+                  Website that is responsive to all devices, with modern user
+                  interface and animated interactions.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <span class="material-icons-outlined button__icon">
+                    east
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- PORTFOLIO 2 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio2.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Brand Design</h3>
+                <p class="portfolio__description">
+                  Did a brand remake with premium assets using Figma with
+                  essential implementation of basic fundamentals.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <span class="material-icons-outlined button__icon">
+                    east
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- PORTFOLIO 3 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio3.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Recipes ios app</h3>
+                <p class="portfolio__description">
+                  A Recipe app that lets you search and create recipes of your
+                  own <br />
+                  &#10031; Made with SwiftUI &#10031;
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <span class="material-icons-outlined button__icon">
+                    east
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <span class="material-icons-outlined swiper-portfolio-icon">
+              arrow_forward_ios
+            </span>
+          </div>
+          <div class="swiper-button-prev">
+            <span class="material-icons-outlined swiper-portfolio-icon">
+              arrow_back_ios_new
+            </span>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
@@ -744,7 +845,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
