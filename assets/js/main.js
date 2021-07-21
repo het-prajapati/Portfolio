@@ -260,3 +260,110 @@ gsap.from(".home__scroll", {
   delay: 3.3,
   y: 20,
 });
+
+// Scroll Animations
+
+gsap.from("#about__title", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 0.4,
+  y: 10,
+});
+
+gsap.from("#about__subtitle", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 0.5,
+  y: 10,
+});
+
+gsap.from(".about__img", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 0.1,
+  y: 10,
+});
+
+gsap.from(".about__description", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 0.6,
+  y: 10,
+});
+
+gsap.from(".no1", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 0.8,
+  y: 10,
+});
+
+gsap.from(".no2", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 1,
+  y: 10,
+});
+
+gsap.from(".no3", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 1.2,
+  y: 10,
+});
+
+gsap.from("#cvButton", {
+  scrollTrigger: "#cvButton",
+  opacity: 0,
+  duration: 1,
+  delay: 1.4,
+  y: 10,
+});
+
+//Skills Animations
+gsap.from("#skills__title", {
+  scrollTrigger: "#trigger",
+  opacity: 0,
+  duration: 1,
+  delay: 0.1,
+  y: 10,
+});
+
+gsap.from("#skills__subtitle", {
+  scrollTrigger: "#trigger",
+  opacity: 0,
+  duration: 1,
+  delay: 0.4,
+  y: 10,
+});
+
+gsap.from("#skill1", {
+  scrollTrigger: "#trigger",
+  opacity: 0,
+  duration: 1,
+  delay: 0.8,
+  y: 10,
+});
+
+gsap.from("#skill2", {
+  scrollTrigger: "#trigger",
+  opacity: 0,
+  duration: 1,
+  delay: 1.2,
+  y: 10,
+});
+
+gsap.from("#skill3", {
+  scrollTrigger: "#trigger",
+  opacity: 0,
+  duration: 1,
+  delay: 1,
+  y: 10,
+});
