@@ -32,7 +32,7 @@
   </head>
   <body>
     <!--==================== HEADER ====================-->
-    <header class="header animate__animated" id="header">
+    <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">Het</a>
 
@@ -77,7 +77,7 @@
 
         <div class="nav__btns">
           <!-- Theme change button -->
-          <i class="bi bi-moon change-theme" id="theme-button"></i>
+          <i class="bi bi-moon change-theme nav__moon" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="bi bi-three-dots"></i>
           </div>
@@ -147,12 +147,12 @@
 
             <!-- animate__animated animate__bounceInDown -->
             <div class="home__data">
-              <h1 class="home__title ">Hi, I'm Het</h1>
+              <h1 class="home__title">Hi, I'm Het</h1>
               <h3 class="home__subtitle">Programmer</h3>
               <p class="home__description">
                 Experienced in Swift, Java, C, and Web Development
               </p>
-              <a href="#contact" class="button button--flex">
+              <a href="#contact" class="button button--flex" id="contactButton">
                 Contact Me <span class="material-icons-outlined button__icon">
                   send
                   </span>
@@ -1032,6 +1032,9 @@
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>

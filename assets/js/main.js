@@ -187,3 +187,76 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+// Animations HOME
+gsap.from(".nav__logo", {
+  opacity: 0,
+  duration: 1,
+  delay: 2,
+  y: 10,
+});
+
+gsap.from(".nav__item", {
+  opacity: 0,
+  duration: 1,
+  delay: 2.1,
+  y: 30,
+  stagger: 0.2,
+});
+
+gsap.from(".nav__moon", {
+  opacity: 0,
+  duration: 1,
+  delay: 3.2,
+  x: 80,
+  stagger: 0.2,
+});
+
+gsap.from(".home__img", {
+  opacity: 0,
+  duration: 1,
+  delay: 0.8,
+  y: 30,
+});
+
+gsap.from(".home__title", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.3,
+  y: 30,
+});
+
+gsap.from(".home__subtitle", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.6,
+  y: 30,
+});
+
+gsap.from(".home__description", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.7,
+  y: 30,
+});
+
+gsap.from("#contactButton", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.8,
+  y: 30,
+});
+
+gsap.from(".home__social", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.9,
+  x: -30,
+});
+
+gsap.from(".home__scroll", {
+  opacity: 0,
+  duration: 1,
+  delay: 3.3,
+  y: 20,
+});
