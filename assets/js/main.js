@@ -367,3 +367,83 @@ gsap.from("#skill3", {
   delay: 1,
   y: 10,
 });
+
+gsap.from("#qualification__title", {
+  scrollTrigger: "#trigger1",
+  opacity: 0,
+  duration: 1,
+  delay: 0.5,
+  y: 10,
+});
+
+gsap.from("#qualification__subtitle", {
+  scrollTrigger: "#trigger1",
+  opacity: 0,
+  duration: 1,
+  delay: 0.7,
+  y: 10,
+});
+
+gsap.from("#pesto", {
+  scrollTrigger: "#trigger1",
+  opacity: 0,
+  duration: 1,
+  delay: 1.5,
+  y: 10,
+});
+
+gsap.from("#salsa", {
+  scrollTrigger: "#trigger1",
+  opacity: 0,
+  duration: 1,
+  delay: 1.9,
+  y: 10,
+});
+
+// gsap.from(
+//   ".qualification__line",
+//   1,
+//   {
+//     scrollTrigger: "#trigger1",
+//     transformOrigin: "bottom",
+//     scaleY: 4,
+//     opacity: 0,
+//     duration: 1,
+//     delay: 2.1,
+//   },
+//   0
+// );
+
+gsap.from("#education", {
+  scrollTrigger: "#trigger1",
+  opacity: 0,
+  duration: 1,
+  delay: 3,
+  y: 10,
+});
+
+//Services Animations
+
+gsap.from("#service__title", {
+  scrollTrigger: "#portfolio",
+  opacity: 0,
+  duration: 1,
+  delay: 0.3,
+  y: 20,
+});
+
+gsap.from("#service__subtitle", {
+  scrollTrigger: "#portfolio",
+  opacity: 0,
+  duration: 1,
+  delay: 0.6,
+  y: 10,
+});
+
+gsap.from(".services__content", {
+  scrollTrigger: "#portfolio",
+  opacity: 0,
+  duration: 1,
+  delay: 0.8,
+  y: 30,
+});
