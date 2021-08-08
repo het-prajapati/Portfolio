@@ -188,6 +188,27 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
+//Contact Form
+console.log("Contact Form works!");
+
+$(document).ready(function () {
+  $(".submit").click(function (event) {
+    console.log("Clicked Send");
+
+    var name = $(".name").val();
+    var email = $(".email").val();
+    var project = $(".project").val();
+    var message = $(".message").val();
+
+    if (email.length > 5 && email.includes("@") && email.includes(".")) {
+      console.log("Email is valid!");
+    } else {
+      event.preventDefault();
+      console.log("Email is invalid!");
+    }
+  });
+});
+
 // Animations HOME
 gsap.from(".nav__logo", {
   opacity: 0,
