@@ -1,5 +1,6 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -204,6 +205,11 @@ img {
 
 .nav__toggle:hover {
   color: var(--first-color);
+}
+
+.nav__logo.main {
+  font-family: Allison;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 767px) {
