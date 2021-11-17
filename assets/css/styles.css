@@ -808,9 +808,16 @@ img {
   text-align: center;
 }
 
+.project__container {
+  display: flex;
+  justify-content: center;
+}
+
 .project__bg {
   background-color: var(--first-color-second);
+  text-align: center;
   padding-top: 3rem;
+  /* padding-bottom: 3rem; */
 }
 
 .project__title {
@@ -827,12 +834,12 @@ img {
   color: #fff;
 }
 
-.project__img {
+/* .project__img {
   width: 232px;
   justify-self: center;
-}
+} */
 /*==================== TESTIMONIAL ====================*/
-.testimonial__data,
+/* .testimonial__data,
 .testimonial__header {
   display: flex;
 }
@@ -867,7 +874,7 @@ img {
 .testimonial__icon-star {
   font-size: 1.3rem;
   color: var(--first-color);
-}
+} */
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
@@ -1105,7 +1112,6 @@ img {
   .about__container,
   .skills__container,
   .portfolio__content,
-  .project__container,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
